@@ -15,13 +15,14 @@ img {
   align-items: center;
   padding-top: 92px;
   padding-left: 24px;
-  padding-bottom: 92px;
+  padding-bottom: 80px;
   padding-right: 24px;
 }
 
 .header_menu {
   display: flex;
   justify-self: center;
+  
 }
 
 .header_logo_image {
@@ -34,6 +35,7 @@ img {
   gap: 32px;
   list-style-type: circle;
   padding-right: 7px;
+  padding-left: 0;
 }
 
 .link_list {
@@ -69,6 +71,8 @@ img {
   z-index: 0;
   background-repeat: no-repeat;
   background-position: center;
+  height: 757px;
+  width: 1100px;
 }
 
 .overlay {
@@ -86,11 +90,11 @@ img {
 .cover_title {
   display: flex;
   flex-direction: column;
-  padding: 165px 50px 207px;
+  padding: 165px 20px 100px 50px;
   gap: 20px;
-  text-align: center;
   height: 385;
   width: 1000;
+  margin: 0;
 }
 
 .cover_title {
@@ -119,13 +123,13 @@ img {
   display: flex;
   align-items: baseline;
   justify-content: space-evenly;
-  padding: 0px 50px 55px 78px;
-  gap: 79px;
+  padding: 0px 40px 55px 40px;
+  gap: 100px;
 }
 .cover_text {
   font-size: 22px;
   font-weight: 400;
-  line-height: 127%;
+  line-height: 130%;
   word-spacing: 18px;
   text-transform: uppercase;
 }
@@ -144,7 +148,7 @@ img {
 }
 
 .title_lots {
-  padding-top: 179px;
+  padding-top: 146px;
   padding-bottom: 26px;
   padding-left: 64px;
   color: #000;
@@ -161,13 +165,17 @@ img {
   justify-content: flex-start;
   padding: 0;
   margin: 0 auto;
-  margin-left: 20px;
+  margin-left: 24px;
+  position: relative;
+  bottom: 33px;
+
 }
 
 .card_lots {
   max-width: 334px;
-  min-height: 563px;
+  height: 499px;
   flex-grow: 1;
+  padding-bottom:150px;
 }
 
 .card {
@@ -202,6 +210,7 @@ img {
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
+  margin: 0px;
 }
 
 .text_on_card {
@@ -210,21 +219,22 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
+  margin: 0px;
 }
 
 .view_more {
   display: block;
-  text-underline-offset: 3px;
-  padding-top: 30px;
   color: black;
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
   margin-left: 64px;
+  position: relative;
+  bottom: 55px;
 }
 
 .about {
-  margin-top: 148px;
+  margin-top: 65px;
 }
 
 .about_container {
@@ -253,8 +263,7 @@ img {
 .about_content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .title_about {
@@ -274,17 +283,17 @@ img {
 }
 
 .text_up {
-  padding-top: 76px;
+  padding-top: 45px;
 }
 
 .text_down {
-  padding-top: 25px;
+  padding-top: 5px;
 }
 
 .footer {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  padding: 180px 50px 88px;
+  padding: 145px 50px 88px;
   gap: 140px;
   align-items: flex-start;
 }
@@ -303,6 +312,7 @@ img {
 .menu_links_footer {
   list-style-type: none;
   text-underline-offset: 3px;
+  padding-left: 0px;
 }
 
 .links_footer {
@@ -325,7 +335,10 @@ img {
 .footer_images {
   display: flex;
   gap: 48px;
+  position: relative;
+  top: 15px;
 }
 a:link {
   color: #000;
+  text-underline-offset: 3px;
 }
